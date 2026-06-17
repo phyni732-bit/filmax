@@ -1,0 +1,76 @@
+ /* СБРОС И БАЗА */
+        * {font-family: Arial, sans-serif; }
+
+        .container { max-width: 1200px; margin: 0 auto; }
+        
+        a { text-decoration: none; color: #000; }
+        
+        /* ИЗОБРАЖЕНИЯ (чтобы не обрезались) */
+        img { object-fit: contain;}
+
+        /* УНИВЕРСАЛЬНЫЕ КЛАССЫ (Экономят код) */
+        .flex { display: flex;  justify-content: space-between; }
+
+        .flex-start { display: flex; align-items: center; gap: 15px; justify-content: flex-start; }
+
+        .flex-col { display: flex; flex-direction: column; }
+
+        .btn { background: #000; color: #fff; padding: 12px 35px; border-radius: 20px; font-size: 14px;  }
+
+        .title { font-size: 32px; margin-bottom: 20px; }
+
+        .desc { font-size: 14px; color: #555; line-height: 1.6; margin-bottom: 30px; }
+
+        section { padding: 60px 0; }
+        
+        /* ШАПКА */
+        .header { padding: 30px 0; }
+        .logo { font-weight: 900; font-size: 25px; }
+        .nav a { margin: 0 15px;}
+        .icons img { width: 20px; height: 20px; margin-left: 20px; }
+
+        /* ТЕКСТОВЫЕ БЛОКИ (Hero, Promo) */
+        .text-box { max-width: 550px; }
+        .hero h1 { font-size: 36px; margin-bottom: 20px; font-weight: 500; }
+        .img-box { width: 450px; height: 350px; }
+        
+        /* БЕСТСЕЛЛЕРЫ */
+        .bestsellers .flex { margin-bottom: 30px; }
+        .bestsellers .title { margin: 0; font-size: 28px; }
+        .grid { display: flex; gap: 20px; }
+        .grid > div { flex: 1; }
+        .grid img { height: 300px; margin-bottom: 15px; width: 100%; }
+        .price-row { font-size: 15px; font-weight: bold; }
+
+        /* КАРТОЧКА ТОВАРА */
+        .product-row { align-items: flex-start; gap: 50px; margin-bottom: 50px; }
+        .product-info { flex: 1; max-width: 500px; }
+        .color-circle { width: 20px; height: 20px; border-radius: 50%; }
+        .spec-row { font-size: 14px; padding: 8px 0; border-bottom: 1px solid #eaeaea; }
+        .img-large { width: 550px; height: 400px; }
+        
+        /* ВКЛАДКИ */
+        .tabs { align-items: flex-start; gap: 50px; border-top: 1px solid #eaeaea; padding-top: 40px; }
+        .tabs-nav { width: 200px; gap: 15px; }
+        .tabs-nav a { font-size: 16px; color: #999; }
+        .tabs-nav a.active { color: #000; font-weight: bold; }
+        .tab-content { flex: 1; font-size: 14px; line-height: 1.6; color: #333; }
+
+        /* МОЗАИКА */
+        .mosaic-section { padding: 80px 0; gap: 30px; }
+        .mosaic-col { gap: 20px; }
+        .mosaic-col img { width: 140px; height: 140px; }
+        .mosaic-center { flex: 1; text-align: center; max-width: 550px; padding: 0 20px; }
+        .mosaic-center .title { font-size: 28px; line-height: 1.4; }
+
+        /* ПРЕИМУЩЕСТВА */
+        .features-section { gap: 50px; }
+        .features-list { flex: 1; max-width: 500px; }
+        .feature-item { font-size: 16px; font-weight: bold; margin-bottom: 20px; }
+        .feature-marker { width: 16px; height: 16px; background: #555; border-radius: 50%; }
+
+        /* ФОРМА КЛУБА */
+        .club-section { align-items: stretch; gap: 50px; padding-bottom: 100px; }
+        .form-box { flex: 1; max-width: 550px; }
+        .form-input { width: 100%; border: none; border-bottom: 1px solid #ccc; padding: 8px 0; font-size: 14px; background: transparent; outline: none; margin-bottom: 20px; }
+        label { font-size: 12px; color: #777; }
