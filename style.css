@@ -74,3 +74,174 @@
         .form-box { flex: 1; max-width: 550px; }
         .form-input { width: 100%; border: none; border-bottom: 1px solid #ccc; padding: 8px 0; font-size: 14px; background: transparent; outline: none; margin-bottom: 20px; }
         label { font-size: 12px; color: #777; }
+
+
+
+
+        /* 
+        </head>
+<body>
+
+    <div class="container">
+
+        <header class="header flex">
+            <div class="logo">FILMAX</div>
+            <nav class="nav">
+                <a href="#">Камеры</a><a href="#">Принтеры</a><a href="#">Аксессуары</a>
+            </nav>
+            <div class="icons flex">
+                <img src="Медиа/lupa.icon.png" alt="Поиск">
+                <img src="Медиа/main.icon.png" alt="Профиль">
+                <img src="Медиа/sms.icon.png" alt="Почта">
+            </div>
+        </header>
+
+        <section class="hero flex">
+            <div class="text-box">
+                <h1>Сохраняйте лучшие моменты своей жизни с камерой моментальной печати Filmax</h1>
+                <p class="desc">Официальный интернет-магазин легендарной фототехники и фото-аксессуаров от британского производителя</p>
+                <a href="#" class="btn">В каталог</a>
+            </div>
+            <img src="Медиа/1.jpg" alt="Главная камера" class="img-box">
+        </section>
+
+        <section class="bestsellers">
+            <div class="flex">
+                <h2 class="title">Бестселлеры</h2>
+                <a href="#" style="font-size:14px; font-weight:bold;">Смотреть все</a>
+            </div>
+            <div class="grid">
+                <div>
+                    <img src="Медиа/2.jpg" alt="Filmax Hello">
+                    <div class="price-row flex"><span>Filmax Hello</span><span>5 900Р</span></div>
+                </div>
+                <div>
+                    <img src="Медиа/3.jpg" alt="Filmax Start">
+                    <div class="price-row flex"><span>Filmax Start</span><span>6 900Р</span></div>
+                </div>
+                <div>
+                    <img src="Медиа/4.jpg" alt="Filmax Option">
+                    <div class="price-row flex"><span>Filmax Option</span><span>8 900Р</span></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="flex pad-80">
+            <div class="text-box">
+                <h2 class="title">Большой выбор плёнок Filmax</h2>
+                <p class="desc">Наша миссия состоит в том, чтобы запечатлеть ваши лучшие моменты. Простые настройки, яркие цвета и мгновенный результат делают плёнку идеальной деталью.</p>
+                <a href="#" class="btn">В каталог</a>
+            </div>
+            <img src="Медиа/5.jpg" alt="Плёнки" class="img-box">
+        </section>
+
+        <section>
+            <div class="flex product-row">
+                <div class="product-info">
+                    <div class="flex-start" style="margin-bottom:15px;">
+                        <h2 class="title" style="margin:0;">Filmax Nova 3.0</h2>
+                        <span style="font-size:14px; color:#555;">⭐ 5.0</span>
+                    </div>
+                    <p class="desc" style="margin-bottom:25px;">Камера моментальной печати с 3-дюймовым LCD-дисплеем и встроенной вспышкой</p>
+                    
+                    <div style="margin-bottom:25px;">
+                        <div style="font-size:14px; margin-bottom:10px;">Цвет</div>
+                        <div class="flex-start" style="gap:10px;">
+                            <div class="color-circle" style="background:#b5b5b5;"></div>
+                            <div class="color-circle" style="background:#eaddca;"></div>
+                            <div class="color-circle" style="background:#cc1133;"></div>
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom:30px;">
+                        <div style="font-weight:bold; margin-bottom:15px;">Характеристики</div>
+                        <div class="flex spec-row"><span>Разрешение фотографии</span><span style="color:#666;">12 Мп</span></div>
+                        <div class="flex spec-row"><span>Время фокуса</span><span style="color:#666;">1с</span></div>
+                        <div class="flex spec-row"><span>Фокусное расстояние</span><span style="color:#666;">10мм</span></div>
+                        <div class="flex spec-row"><span>Диагональ</span><span style="color:#666;">3 дюйма</span></div>
+                    </div>
+
+                    <div class="flex-start" style="gap:30px;">
+                        <span style="font-size:24px; font-weight:bold;">12 500Р</span>
+                        <button class="btn">Добавить в корзину</button>
+                    </div>
+                </div>
+                <img src="Медиа/camera.png" alt="Nova 3.0" class="img-large">
+            </div>
+
+            <div class="flex tabs">
+                <div class="flex-col tabs-nav">
+                    <a href="#" class="active">Описание</a>
+                    <a href="#">Характеристики</a>
+                    <a href="#">Отзывы</a>
+                </div>
+                <div class="tab-content">
+                    Этот ультрасовременный фотоаппарат представляет собой идеальное сочетание классической моментальной печати и продвинутых цифровых технологий. Оснащенная качественной линзой камера позволяет автоматически настроить фокус и экспозицию.
+                </div>
+            </div>
+        </section>
+
+        <section class="flex mosaic-section">
+            <div class="flex-col mosaic-col">
+                <img src="Медиа/6.jpg" alt=""><img src="Медиа/7.jpg" alt=""><img src="Медиа/8.jpg" alt="">
+            </div>
+            <div class="mosaic-center">
+                <h2 class="title">Легендарная фототехника, которая позволит вам увидеть жизнь в новых красках</h2>
+                <p class="desc">Мы создаем камеры Filmax, чтобы вы могли прикоснуться к лучшим моментам вашей истории и сделать повседневность по-настоящему вдохновляющей.</p>
+                <a href="#" class="btn">Узнать больше</a>
+            </div>
+            <div class="flex-col mosaic-col">
+                <img src="Медиа/7.jpg" alt=""><img src="Медиа/8.jpg" alt=""><img src="Медиа/6.jpg" alt="">
+            </div>
+        </section>
+
+        <section class="flex features-section">
+            <img src="Медиа/9.jpg" alt="Примеры" class="img-large">
+            <ul class="features-list">
+                <li class="flex-start feature-item"><div class="feature-marker"></div>Превосходное качество</li>
+                <li class="flex-start feature-item"><div class="feature-marker"></div>Моментальная печать</li>
+                <li class="flex-start feature-item"><div class="feature-marker"></div>Стильный дизайн</li>
+                <li class="flex-start feature-item"><div class="feature-marker"></div>Запись видео</li>
+                <li class="flex-start feature-item"><div class="feature-marker"></div>Автофокус</li>
+            </ul>
+        </section>
+
+        <section class="flex club-section">
+            <div class="form-box">
+                <h2 class="title" style="margin-bottom:15px;">Вступайте в наш клуб</h2>
+                <p class="desc">Присоединяйтесь к сообществу любителей моментальной фотографии и получайте эксклюзивные скидки и новости.</p>
+                
+                <form>
+                    <div class="flex" style="gap:20px; align-items:flex-end;">
+                        <div style="flex:1;"><label>Имя</label><input type="text" class="form-input"></div>
+                        <div style="flex:1;"><label>Телефон</label><input type="text" class="form-input"></div>
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="email" class="form-input">
+                    </div>
+
+                    <div style="margin-bottom:25px;">
+                        <label>Я хочу получать:</label>
+                        <div class="flex-start" style="margin-top:10px; color:#000;">
+                            <label class="flex-start" style="gap:5px;"><input type="radio" name="receive"> Новости</label>
+                            <label class="flex-start" style="gap:5px;"><input type="radio" name="receive"> Скидки</label>
+                            <label class="flex-start" style="gap:5px;"><input type="radio" name="receive" checked> Всё вместе</label>
+                        </div>
+                    </div>
+
+                    <label class="flex-start" style="margin-bottom:30px; align-items:flex-start; gap:10px;">
+                        <input type="checkbox" required> Я согласен с политикой конфиденциальности
+                    </label>
+
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+            <img src="Медиа/10.jpg" alt="Съемка" class="img-box" style="height:auto; min-height:450px;">
+        </section>
+
+    </div>
+
+</body>
+</html>
+ */
